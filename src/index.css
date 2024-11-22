@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #000;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Noto Serif", serif;
+}
+h2 {
+  font-family: "Noto Serif", serif;
+}
+h3 {
+  font-family: "Noto Serif", serif;
+}
+
+h4 {
+  font-family: "Noto Serif", serif;
+}
+
+h6 {
+  font-family: "Noto Serif", serif;
+}
+
+.banner {
+  background-image: linear-gradient(#000000cf, #000000cf),
+    url(./assets/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  background: #9d724e2b;
+  backdrop-filter: blur(30px);
+}
